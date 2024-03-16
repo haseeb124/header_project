@@ -1,0 +1,39 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+}
+
+.header {
+    background-color: #065fd4;
+    padding: 4rem;
+    color: white;
+    background-image: url(/images/background.png);
+    background-repeat: no-repeat;
+    background-size: 260px;
+    background-position-x: 100%;
+    background-position-y: -160px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+.header span {
+    font-size: 1.5rem;
+}
+
+img {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 100%;
+    border: 3px solid white;
+    vertical-align: middle;
+
+}
+
+img + img {
+    margin-left: -15px;
+}
